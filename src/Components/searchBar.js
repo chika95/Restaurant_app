@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import menu from "./Data";
 import Home from "./Home";
 
-const SearchBar = ({ image }) => {
+const SearchBar = () => {
   const [query, setQuery] = useState("");
   const [products, setProducts] = useState([]);
 
@@ -13,7 +13,6 @@ const SearchBar = ({ image }) => {
         keys.some((key) => item[key].toLowerCase().includes(query))
       );
       setProducts(filteredProducts);
-      setImages("");
     }
   }, [query]);
 

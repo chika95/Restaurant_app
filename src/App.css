@@ -21,3 +21,37 @@ img {
   height: 250px;
   align-content: space-around;
 }
+
+.photo {
+  object-fit: cover;
+  height: 250px;
+  width: 300px;
+  display: block;
+  border-radius: 0.25rem;
+}
+
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: grid;
+  gap: 3rem 2rem;
+  justify-items: center;
+  align-content: space-around;
+}
+
+.menu-item {
+  display: grid;
+  gap: 1rem 2rem;
+  max-width: 25rem;
+}
+
+.item-info header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.5px dotted black;
+}
+
+.item-info h4 {
+  margin-bottom: 0.5rem;
+}
