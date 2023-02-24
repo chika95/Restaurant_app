@@ -10,6 +10,7 @@ const Layout = () => {
       <Link to="/register">
         <button>REGISTER</button>
       </Link>
+
       <Outlet />
     </div>
   );
